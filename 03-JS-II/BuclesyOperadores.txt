@@ -1,0 +1,14 @@
+El bucle for es una instrucción que existe en todos los lenguajes de  programación ,
+es usado cuando queremos realizar un proceso,(x) cantidad de veces, por eso lo de bucle
+se repite una y otra vez hasta que termina por haber llegado al límite de pasadas predetermina
+En el for o por acción de alguna sentencia en medio del bucle.
+Ejemplo:
+ Miremos la cadena de una bicicleta, tiene muchos eslabones que van de un pato de pedales a un piñón en la rueda, supongamos que pintamos de rojo un eslabón, comenzamos a seguirlo y vemos que llega hasta el piñón en la rueda ,la hace girar y regresa al plato de pedales, ese sería nuestro bucle y la acción girar la rueda, esto seguiría pasando tantas veces como vueltas demos al plato de pedales, si decidiéramos darle 10 vueltas al plato de pedales, la rueda giraría (x)cantidad de veces, mientras llegamos a la vuelta 10 del plato de pedales y terminaría nuestro bucle , pero supongamos que en la vuelta 6 se cumple una determinada condición y se sale la cadena , esto detendría la acción del plato de pedales deteniendo el bucle ,por  ende saliendo del mismo.
+Dentro de los programas nos encontramos con los operadores llamados lógicos, pero en realidad son capaces de trabajar con valores de cualquier tipo, pero nos entregan uno de dos estados boléanos  ,( true o false)son cuatro en JavaScript.
+&&  (AND Lógico)  compara   a  AND  b  si a y b son iguales devuelve ture si no false.
+Fruta = Manzanas   &&  Manzanas =rojas   poner  en la canasta de frutos rojos
+Fruta = Manzanas  &&  Manzanas=verdes  poner en la canasta de frutos verdes
+||  (OR Lógico)    compara   a OR b ambos pueden ser distintos o iguales y dependiendo de esa evaluación devolverá true o false 
+Manzanas = verdes  ||  Manzanas = rojas    ponerlas en la canasta de frutas
+! (NOT Lógico)  acepta un  solo argumento y devuelve lo contrario
+! Manzanas = rojas  ponla en la canasta de frutos verdes  
