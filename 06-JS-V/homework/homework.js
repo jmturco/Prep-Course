@@ -66,7 +66,7 @@ function agregarStringInvertida() {
         this.detalle=function(){return {Nombre:this.nombre,Apellido:this.apellido,Edad:this.edad,Domicilio:this.domicilio}}
      
       return this.detalles;
-    }      s
+    }      
   
 }  
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
