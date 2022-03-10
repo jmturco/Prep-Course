@@ -10,15 +10,14 @@ function mayuscula(nombre) {
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
-  return cb();
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
-  const suma= (n1 + n2, cb);
-  return cb(suma);
+  return cb(n1, n2);
 } 
 
 function sumarArray(numeros, cb) {
@@ -46,10 +45,14 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  for (var i = 0; i < array.length; i++) {
-    array[i] = cb(array[i]);
-  }
-  return array;
+  // for (var i = 0; i < array.length; i++) {
+  //   array[i] = cb(array[i]);
+  // }
+  // return array;
+  var newArray = array.map(function(numero){
+    return cb(numero);
+  });
+  return newArray;
 }
 
 function filter(array) {
