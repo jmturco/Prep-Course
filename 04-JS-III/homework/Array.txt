@@ -1,0 +1,3 @@
+Los arrays (arreglos) son una colección de datos encerrados en una sola variable, son objetos similares a una lista, la cual podemos recorrer, ejecutar, modificar  datos. 
+Mi caja con la colección de autitos
+Saco solo los rojos  y los pongo en otra caja
