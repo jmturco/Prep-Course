@@ -1,0 +1,15 @@
+Variables,  es como una pequeña caja donde podemos guardar x cosa, podríamos tener varias de esas cajas con las mismas x cosas o distintas entre sí o sea almacena un valor con el cual podemos interactuar durante el programa.
+Strings, son tramos de caracteres que se ponen entre comillas, formando  una  cadena  y que por lo general se guarda en una variable.
+Funciones, es un conjunto de instrucciones para realizar una tarea o un valor, tiene una entrada y devuelve una salida relacionadas  entre sí.
+Declaraciones , son un alista de instrucciones a ser ejecutadas línea a línea seria 
+Hacer tostadas:
+	Corto el pan
+	Pongo el pan en la tostadora
+	Enciendo la tostadora
+	Espero que se tueste
+	Retiro el pan de la tostadora
+	Pongo el pan en el plato
+Valores  booleanos , o lógicos están designado por un par de valores (true, false)se usa para comparar datos 
+Ejemplo:
+¿Un cuadrado tiene 4 lados iguales?  =  true
+¿Un triángulo tiene 4 lados iguales? =   false
