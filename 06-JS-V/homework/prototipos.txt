@@ -1,0 +1,7 @@
+JavaScript es un lenguaje orientado a objetos, (POO) basada en prototipos a diferencia de otros lenguajes basados en clases, aunque desde 2015, JavaScript implemento el uso de clases , pero de una forma distinta y que en realidad todo el código se convierte en prototipo.
+Los prototipos se definen a partir de una función constructora, se van a crear atributos y métodos para ese prototipo, por default  se crea un objeto primario, principal, de donde deriva todo el resto llamada __proto__ : object  contiene los constructores y métodos definidos por JavaScript estos prototipos son esenciales para poder reutilizar el código en el lugar que lo necesitemos ahorrando no solo tiempo de programación sino mucho más aun consumo de memoria RAM .
+Desde 2015 JavaScript, incorpora las clases ,para que los programadores se sientan mas comodo con el leguaje .
+
+
+Una class (clase) no puede llevar propiedades, para poder pasarles propiedades se debe definir un método especial llamado constructor  que es el que va a recibir las propiedades,	
+O sea el constructors es un método especial que se ejecuta en el momento de instanciar la clase.
