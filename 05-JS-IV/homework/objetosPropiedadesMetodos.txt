@@ -1,0 +1,37 @@
+Los objetos son contenedores que contienen mucha información sobre una misma cosa, es una colección de propiedades
+En la caja tengo un autito
+•	Es de color rojo
+•	Descapotable
+•	Abre una puerta
+•	Llantas deportivas
+•	Rueda auxiliar
+Una propiedad es una asociación entre un nombre y un valor.
+Un método es una función guardada en un objeto y de su propiedad.
+Un bucle for …in sirve para movernos por cada clave-valor de un objeto 
+Los bucles ofrecen una forma rápida y sencilla de hacer algo repetidamente
+La notación por puntos debe seguir ciertas reglas para que el intérprete  funcione,
+•	distingue mayúsculas y minúsculas
+•	puede contener letras Unicode
+•	$, -, Están permitidos
+•	Los dígitos (0–9) están bien, PERO es posible que no comiencen con un dígito
+Notación de puntos
+
+obj.123;      // ❌ SyntaxError
+obj.123name;  // ❌ SyntaxError
+obj.name123;  // ✅ 'does not start with digit'
+obj.$name;    // ✅  '$ sign'
+obj.name-123;  // ❌ SyntaxError
+obj.'name-123';// ❌ SyntaxError
+obj.NAME; // ✅ 'upper case'
+obj.name; // ✅ 'lower case'
+
+
+Notación de corchetes
+Pero nada de esto es un problema para la notación de corchetes.
+obj['123'];     // ✅ 'digit'
+obj['123name']; // ✅ 'start with digit'
+obj['name123']; // ✅ 'does not start with digit'
+obj['$name'];   // ✅ '$ sign'
+obj['name-123']; // ✅ 'does not start with digit'
+obj['NAME']; // ✅ 'upper case'
+obj['name']; // ✅ 'lower case'
