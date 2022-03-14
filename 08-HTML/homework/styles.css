@@ -5,15 +5,43 @@
     img{
     width: 400px;
     }
+
     #thirdDiv{
     width: 500px;
     height: 600px; 
     background-color: #ccc;
     padding: 50px;
-    border: 10px solid rgb(13, 44, 219);    
+    border: 10px solid rgb(13, 44, 219);  
+    margin: 0px auto;
+    text-align: center;
+    vertical-align:midle;
+    
     }
     #spanId{
     font-size: 18px;
-    margin : 50px;
-    
+    display: flex;
+    justify-content: center;
     }
+    a{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+      }
+
+    body, html {
+        height: 100%;
+        background-repeat: no-repeat;
+        background: url(./Fondos.jpg) no-repeat center center fixed;
+        background-size: 100% 100%;
+    }
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
